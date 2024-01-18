@@ -5,15 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
 
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
     </style>
 </head>
 
 <body>
-    <header>
+    <!-- header section start -->
+    <header class="bg-[#FFFBF0] w-9/12 m-auto px-32 py-11">
+        <!-- nav section start -->
+        <nav class="flex justify-between items-center">
+            <div class="w-1/6">
+                <img src="images/icons/logo.png" alt="">
+            </div>
+            <ul class="flex gap-12 text-base font-roboto font-normal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+        </nav>
 
     </header>
     <main>
